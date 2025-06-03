@@ -1,0 +1,49 @@
+/* ======== HERO SECTION ======== */
+#hero {
+  margin-top: 80px;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+#hero h1 {
+  font-size: clamp(2.5rem, 8vw, 5rem);
+  font-weight: 600;
+  line-height: 1.1;
+  margin-bottom: 20px;
+  max-width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #000;
+}
+
+#hero h1 span {
+  color: var(--primary);
+  font-size: inherit;
+  font-style: italic;
+}
+
+.paragraph {
+  color: var(--primary);
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+/* ======== HERO SLIDER ======== */
+
+/* ======== MEDIA QUERIES ======== */
+@media (min-width: 768px) {
+  #hero {
+    margin-top: 60px;
+  }
+
+  #hero h1 {
+    font-size: clamp(3rem, 6vw, 6rem);
+    margin-bottom: 30px;
+  }
+
+  .paragraph {
+    font-size: 1.1rem;
+  }
+}

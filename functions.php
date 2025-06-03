@@ -20,6 +20,7 @@ function enqueue_styles() {
 
 function enqueue_scripts() {
 	wp_enqueue_script( 'main-js', get_template_directory_uri() . '/assets/js/main.js', array(), wp_get_theme()->get( 'Version' ), true );
+	wp_enqueue_script( 'my-swiper-js', get_template_directory_uri() . '/assets/js/mySwiper.js', array(), wp_get_theme()->get( 'Version' ), true );
 	wp_enqueue_script( 'gsap', 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js', array(), null, true );
 	wp_enqueue_script( 'swiper-js', 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js', array(), '5.3.1', true );
 }

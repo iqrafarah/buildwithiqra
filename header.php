@@ -17,7 +17,9 @@
 <header>
     <div class="container">
         <nav class="menu">
-            <div id="logo"> Buildwithiqra.</div>
+            <div id="logo">
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">Buildwithiqra</a>
+			</div>
 
             <!-- Hamburger Menu (Mobile) -->
             <div id="hamburger">
@@ -62,8 +64,3 @@
         </div>
     </div>
 </header>
-
-
-<style>
-
-</style>
