@@ -4,6 +4,7 @@
             How i can help you
         </h2>
         <span class="pre-title">( services )</span>
+
     </div>
 
     <div class="scroll-wrapper">
@@ -56,6 +57,26 @@
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M53.5715 0H46.4286V37.24L17.17 10.9073L12.1193 15.453L41.3778 41.7857H0V48.2143H41.3778L12.1193 74.547L17.17 79.0924L46.4286 52.7598V90H53.5715V52.7598L82.83 79.0924L87.8805 74.547L58.622 48.2143H100V41.7857H58.622L87.8805 15.453L82.83 10.9073L53.5715 37.24V0Z" fill="#FF3D00" />
                     </svg>
                     <h3>SEO Optimization</h3>
+                </div>
+                <div class="service-details">
+                    <span>Scalable Components</span>
+                    <span>Brand Consistency</span>
+                    <span>Modern UI</span>
+                </div>
+                <p class="paragraph">
+                    With my solo agency, I build fully custom WordPress websites tailored to your exact needs. Using ACF and the Classic Editor, I develop bespoke themes that give you complete control over content and layout. I handle everything from setting up a solid folder structure and version control (Git) to writing clean HTML, CSS, and JavaScript for responsive layouts. Whether you need a brand-new site or additional functionality on an existing one, I ensure your site is robust, maintainable, and easy to expand in the future.
+                </p>
+            </div>
+
+            <!-- Service Block 3 -->
+            <div class="service-block" data-index="2" data-image="https://cdn.prod.website-files.com/669f31da6bffdf98a45d622a/66ab37ff69ac059178a8cf81_colin-and-samir-thumb.avif">
+                <img class="mobile-service-image" src="https://cdn.prod.website-files.com/669f31da6bffdf98a45d622a/66ab37ff69ac059178a8cf81_colin-and-samir-thumb.avif" alt="Design Systems Image">
+                <div class="service-top"><svg class="asterisk" viewBox="0 0 100 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M53.5715 0H46.4286V37.24L17.17 10.9073L12.1193 15.453L41.3778 41.7857H0V48.2143H41.3778L12.1193 74.547L17.17 79.0924L46.4286 52.7598V90H53.5715V52.7598L82.83 79.0924L87.8805 74.547L58.622 48.2143H100V41.7857H58.622L87.8805 15.453L82.83 10.9073L53.5715 37.24V0Z" fill="#FF3D00" />
+                    </svg>
+                    <h3>
+                        Maintenance & Support
+                    </h3>
                 </div>
                 <div class="service-details">
                     <span>Scalable Components</span>

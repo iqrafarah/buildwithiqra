@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap");
 
 :root {
-  --primary: #1d1c1c;
+  --primary: #100d0d;
   --background: #ffffff;
   --text-secondary: #81807e;
   --accent: #ff3d00;
@@ -260,9 +260,9 @@ header {
 
 .pre-title {
   text-align: center;
-  font-size: 1rem;
+  font-size: 0.9rem;
   line-height: 1.5rem;
-  color: var(--accent);
+  /* color: var(--accent); */
   margin: 10px 0;
   text-transform: uppercase;
 }
@@ -273,8 +273,6 @@ header {
   line-height: 1.1;
   margin-bottom: 20px;
   max-width: 75%;
-  margin-left: auto;
-  margin-right: auto;
 }
 .paragraph {
   color: var(--primary);
@@ -326,11 +324,14 @@ header {
     max-width: 900px;
     line-height: 1.065;
     font-size: calc(clamp(3.25em, 3.5vw, 4.5em) * 0.875);
+    /* margin-left: auto; */
+    /* margin-right: auto; */
   }
 }
 
 @media (min-width: 1024px) {
   .container {
     max-width: 1400px;
+    margin: auto;
   }
 }
