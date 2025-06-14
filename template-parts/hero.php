@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 $hero_group = get_field('hero_group', get_the_ID());
 
@@ -7,13 +7,13 @@ $hero_group = get_field('hero_group', get_the_ID());
     <h1>
         Freelance web developer & <span class="designer">Designer</span>
     </h1>
-    <?php if(!empty($hero_group['description'])): ?>
+    <?php if (!empty($hero_group['description'])): ?>
         <p class="paragraph">
-        <?php echo esc_html($hero_group['description']); ?>
+            <?php echo esc_html($hero_group['description']); ?>
         </p>
     <?php endif; ?>
-   
-    <?php if(!empty($hero_group['button_group']['button_text'])): ?>
+
+    <?php if (!empty($hero_group['button_group']['button_text'])): ?>
         <a href="<?php echo esc_url($hero_group['button_group']['button_link']); ?>" class="btn btn-primary">
             <span>
                 <?php echo esc_html($hero_group['button_group']['button_text']); ?>

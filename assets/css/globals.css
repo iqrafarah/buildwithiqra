@@ -1,12 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap");
+
 :root {
-  --primary: #100d0d;
+  --primary: #1d1c1c;
   --background: #ffffff;
   --text-secondary: #81807e;
   --accent: #ff3d00;
   --text: #000000;
   --overlay-light: rgba(255, 255, 255, 0.1);
   --background-light: #dfded9;
-  --text-muted: #757575;
+  --text-muted: #6a6c6a;
   --border-muted: rgba(178, 178, 178, 0.37);
   --background-soft: #efefef;
   --text-dark-83: rgba(0, 0, 0, 0.83);
@@ -86,13 +88,17 @@
 }
 
 html {
-  font-size: 17px;
+  font-size: 16px;
+  scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
 }
 
 body {
   font-family: "GeneralSans", sans-serif;
   font-weight: 400;
+  overflow-x: hidden;
+  color: var(--primary);
+  background-color: var(--background);
 }
 
 strong {
@@ -113,7 +119,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Playfair Display", serif;
+  font-weight: 450;
+  /* font-family: "Cormorant Garamond", serif; */
 }
 
 /* ========== TYPOGRAPHY & LAYOUT ========== */
@@ -124,6 +131,11 @@ h6 {
 
 .spacing {
   margin: 40px auto;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 ::selection {
@@ -137,7 +149,8 @@ h6 {
   align-items: center;
   justify-content: center;
   padding: 0.75rem 1.25rem;
-  margin: 1.25rem auto;
+  margin-top: 1.25rem;
+  width: fit-content;
   height: 44px;
   font-size: 1rem;
   color: var(--background) !important;
@@ -152,10 +165,11 @@ h6 {
 
 .btn-primary {
   background-color: var(--accent);
-  color: black;
+  color: white !important;
 }
 
-.btn-primary:hover {
+.btn-primary:hover,
+.btn-primary:focus {
   border-color: var(--primary);
   background-color: var(--primary);
   color: white;
@@ -167,11 +181,15 @@ h6 {
   color: var(--accent);
 }
 
-.btn-secondary:hover {
+.btn-secondary:hover,
+.btn-secondary:focus {
   background-color: var(--accent);
   color: white !important;
 }
 
+.right-menu .btn {
+  margin-top: 0 !important;
+}
 /* ========== NAVIGATION ========== */
 ul li {
   list-style: none;
@@ -196,11 +214,11 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 10px 0;
 }
 
 #logo {
   font-size: 1.2rem;
-  font-family: "Playfair Display";
 }
 
 #main-menu,
@@ -244,16 +262,19 @@ header {
   text-align: center;
   font-size: 1rem;
   line-height: 1.5rem;
-  color: var(--primary);
+  color: var(--accent);
   margin: 10px 0;
   text-transform: uppercase;
 }
 
 .title {
   font-size: clamp(1.5rem, 5vw, 4rem);
-  font-weight: 500;
+  font-weight: 450;
+  line-height: 1.1;
   margin-bottom: 20px;
-  max-width: 100%;
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .paragraph {
   color: var(--primary);
@@ -265,7 +286,7 @@ header {
 /* ========== MEDIA QUERIES ========== */
 @media (min-width: 768px) {
   .container {
-    max-width: 1400px;
+    max-width: 1200px;
   }
 
   .spacing {
@@ -302,7 +323,14 @@ header {
   }
 
   .title {
-    font-size: clamp(2rem, 5vw, 2.5rem);
-    max-width: 800px;
+    max-width: 900px;
+    line-height: 1.065;
+    font-size: calc(clamp(3.25em, 3.5vw, 4.5em) * 0.875);
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1400px;
   }
 }
