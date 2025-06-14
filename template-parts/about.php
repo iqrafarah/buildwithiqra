@@ -50,7 +50,7 @@
                     Response Time
                 </span>
                 <h2 class="number">
-                    <24h
+                    < 24h
                         </h2>
                         <p class="paragraph">Quick communication and reliable project delivery. I believe in keeping clients informed throughout the process.</p>
             </div>

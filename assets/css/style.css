@@ -181,7 +181,6 @@
   margin: 100px auto;
   width: 70%;
   height: 100vh;
-  border-radius: 10px;
   object-fit: cover;
   transform-origin: center center;
   will-change: transform;
