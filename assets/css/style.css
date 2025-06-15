@@ -485,6 +485,111 @@
   .img-wrapper::before {
   display: none;
 }
+/* ======== FAQ  ======== */
+.faq-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 80px;
+  align-items: start;
+}
+
+.sidebar {
+  position: sticky;
+  top: 40px;
+}
+
+.sidebar h1 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 30px;
+  color: #000;
+}
+
+.sidebar p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+.faq-section {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.faq-item {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.faq-item:last-child {
+  border-bottom: none;
+}
+
+.faq-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 40px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.faq-number {
+  font-size: 0.9rem;
+  color: #999;
+  margin-right: 30px;
+  min-width: 30px;
+}
+
+.faq-title {
+  font-size: 1.25rem;
+  color: #333;
+  flex-grow: 1;
+  font-weight: 400;
+}
+
+.faq-toggle {
+  font-size: 2rem;
+  font-weight: 300;
+  color: #999;
+  transition: transform 0.3s ease, color 0.2s ease;
+  user-select: none;
+}
+
+.faq-item.active .faq-toggle {
+  transform: rotate(45deg);
+  color: #666;
+}
+
+.faq-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  background-color: #fdfdfd;
+}
+
+.faq-content.active {
+  max-height: 500px;
+}
+
+.faq-content-inner {
+  padding: 0 40px 30px 100px;
+  color: #666;
+  line-height: 1.6;
+}
+
+.faq-content-inner p {
+  margin-bottom: 15px;
+}
+
+.faq-content-inner p:last-child {
+  margin-bottom: 0;
+}
+
+.highlight {
+  font-style: italic;
+}
 
 /* ======== MEDIA QUERIES ======== */
 @media (min-width: 768px) {
@@ -547,5 +652,37 @@
 @media (min-width: 1200px) {
   .scroll-wrapper {
     grid-template-columns: 1fr 600px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .sidebar {
+    position: static;
+  }
+
+  .sidebar h1 {
+    font-size: 2rem;
+  }
+
+  .faq-header {
+    padding: 20px;
+  }
+
+  .faq-number {
+    margin-right: 15px;
+    min-width: 20px;
+  }
+
+  .faq-title {
+    font-size: 1.1rem;
+  }
+
+  .faq-content-inner {
+    padding: 0 20px 20px 60px;
   }
 }

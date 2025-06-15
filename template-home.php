@@ -9,6 +9,7 @@ get_template_part('template-parts/slider');
 get_template_part('template-parts/about');
 get_template_part('template-parts/services');
 get_template_part('template-parts/work');
+get_template_part('template-parts/faq');
 ?>
 
 <?php get_footer() ?>
