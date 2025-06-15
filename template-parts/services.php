@@ -3,7 +3,7 @@
         <h2 class="title">
             How i can help you
         </h2>
-        <span class="pre-title">( services )</span>
+        <span class="pre-title">services</span>
 
     </div>
 
@@ -15,9 +15,10 @@
             <!-- Service Block 1 -->
             <div class="service-block" data-index="0" data-image="https://cdn.prod.website-files.com/669f31da6bffdf98a45d622a/66ab37ff69ac059178a8cf81_colin-and-samir-thumb.avif">
                 <img class="mobile-service-image" src="https://cdn.prod.website-files.com/669f31da6bffdf98a45d622a/66ab37ff69ac059178a8cf81_colin-and-samir-thumb.avif" alt="Web Development Image">
-                <div class="service-top"><svg class="asterisk" viewBox="0 0 100 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <div class="service-top">
+                    <!-- <svg class="asterisk" viewBox="0 0 100 90" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M53.5715 0H46.4286V37.24L17.17 10.9073L12.1193 15.453L41.3778 41.7857H0V48.2143H41.3778L12.1193 74.547L17.17 79.0924L46.4286 52.7598V90H53.5715V52.7598L82.83 79.0924L87.8805 74.547L58.622 48.2143H100V41.7857H58.622L87.8805 15.453L82.83 10.9073L53.5715 37.24V0Z" fill="#FF3D00" />
-                    </svg>
+                    </svg> -->
                     <h3>Web Development</h3>
                 </div>
                 <div class="service-details">
@@ -35,9 +36,10 @@
             <!-- Service Block 2 -->
             <div class="service-block" data-index="1" data-image="https://cdn.prod.website-files.com/669f31da6bffdf98a45d622a/66ab37ff7a79de838001918a_fair-supply-thumb.avif">
                 <img class="mobile-service-image" src="https://cdn.prod.website-files.com/669f31da6bffdf98a45d622a/66ab37ff7a79de838001918a_fair-supply-thumb.avif" alt="SEO Optimization Image">
-                <div class="service-top"><svg class="asterisk" viewBox="0 0 100 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <div class="service-top">
+                    <!-- <svg class="asterisk" viewBox="0 0 100 90" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M53.5715 0H46.4286V37.24L17.17 10.9073L12.1193 15.453L41.3778 41.7857H0V48.2143H41.3778L12.1193 74.547L17.17 79.0924L46.4286 52.7598V90H53.5715V52.7598L82.83 79.0924L87.8805 74.547L58.622 48.2143H100V41.7857H58.622L87.8805 15.453L82.83 10.9073L53.5715 37.24V0Z" fill="#FF3D00" />
-                    </svg>
+                    </svg> -->
                     <h3>Web Design</h3>
                 </div>
                 <div class="service-details">
@@ -53,9 +55,10 @@
             <!-- Service Block 3 -->
             <div class="service-block" data-index="2" data-image="https://cdn.prod.website-files.com/669f31da6bffdf98a45d622a/66ab37ff69ac059178a8cf81_colin-and-samir-thumb.avif">
                 <img class="mobile-service-image" src="https://cdn.prod.website-files.com/669f31da6bffdf98a45d622a/66ab37ff69ac059178a8cf81_colin-and-samir-thumb.avif" alt="Design Systems Image">
-                <div class="service-top"><svg class="asterisk" viewBox="0 0 100 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <div class="service-top">
+                    <!-- <svg class="asterisk" viewBox="0 0 100 90" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M53.5715 0H46.4286V37.24L17.17 10.9073L12.1193 15.453L41.3778 41.7857H0V48.2143H41.3778L12.1193 74.547L17.17 79.0924L46.4286 52.7598V90H53.5715V52.7598L82.83 79.0924L87.8805 74.547L58.622 48.2143H100V41.7857H58.622L87.8805 15.453L82.83 10.9073L53.5715 37.24V0Z" fill="#FF3D00" />
-                    </svg>
+                    </svg> -->
                     <h3>SEO Optimization</h3>
                 </div>
                 <div class="service-details">
@@ -71,9 +74,10 @@
             <!-- Service Block 3 -->
             <div class="service-block" data-index="2" data-image="https://cdn.prod.website-files.com/669f31da6bffdf98a45d622a/66ab37ff69ac059178a8cf81_colin-and-samir-thumb.avif">
                 <img class="mobile-service-image" src="https://cdn.prod.website-files.com/669f31da6bffdf98a45d622a/66ab37ff69ac059178a8cf81_colin-and-samir-thumb.avif" alt="Design Systems Image">
-                <div class="service-top"><svg class="asterisk" viewBox="0 0 100 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <div class="service-top">
+                    <!-- <svg class="asterisk" viewBox="0 0 100 90" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M53.5715 0H46.4286V37.24L17.17 10.9073L12.1193 15.453L41.3778 41.7857H0V48.2143H41.3778L12.1193 74.547L17.17 79.0924L46.4286 52.7598V90H53.5715V52.7598L82.83 79.0924L87.8805 74.547L58.622 48.2143H100V41.7857H58.622L87.8805 15.453L82.83 10.9073L53.5715 37.24V0Z" fill="#FF3D00" />
-                    </svg>
+                    </svg> -->
                     <h3>
                         Maintenance & Support
                     </h3>

@@ -21,6 +21,8 @@ function enqueue_styles()
 
 function enqueue_scripts()
 {
+	wp_enqueue_script('lenis-js', 'https://cdn.jsdelivr.net/npm/lenis@1.0.0/dist/lenis.min.js', array(), '1.0.0', true);
+
 	wp_enqueue_script('my-swiper-js', get_template_directory_uri() . '/assets/js/mySwiper.js', array(), wp_get_theme()->get('Version'), true);
 	wp_enqueue_script(
 		'gsap',

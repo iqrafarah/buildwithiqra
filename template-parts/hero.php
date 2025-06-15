@@ -14,7 +14,7 @@ $hero_group = get_field('hero_group', get_the_ID());
     <?php endif; ?>
 
     <?php if (!empty($hero_group['button_group']['button_text'])): ?>
-        <a href="<?php echo esc_url($hero_group['button_group']['button_link']); ?>" class="btn btn-primary">
+        <a href="<?php echo esc_url($hero_group['button_group']['button_link']); ?>" class="btn btn-secondary">
             <span>
                 <?php echo esc_html($hero_group['button_group']['button_text']); ?>
             </span>

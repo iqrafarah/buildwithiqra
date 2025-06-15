@@ -1,14 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap");
-
 :root {
   --primary: #100d0d;
   --background: #ffffff;
   --text-secondary: #81807e;
-  --accent: #ff3d00;
+  --accent: #000;
   --text: #000000;
   --overlay-light: rgba(255, 255, 255, 0.1);
   --background-light: #dfded9;
-  --text-muted: #6a6c6a;
+  --text-muted: #666666;
   --border-muted: rgba(178, 178, 178, 0.37);
   --background-soft: #efefef;
   --text-dark-83: rgba(0, 0, 0, 0.83);
@@ -120,7 +118,6 @@ h4,
 h5,
 h6 {
   font-weight: 450;
-  /* font-family: "Cormorant Garamond", serif; */
 }
 
 /* ========== TYPOGRAPHY & LAYOUT ========== */
@@ -153,13 +150,13 @@ h6 {
   width: fit-content;
   height: 44px;
   font-size: 1rem;
-  color: var(--background) !important;
   font-weight: 500;
   font-family: "GeneralSans", sans-serif;
   border-radius: 9999px;
   text-transform: none;
   text-align: center;
   cursor: pointer;
+  color: var(--primary);
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -178,7 +175,6 @@ h6 {
 .btn-secondary {
   border: 2px solid var(--accent);
   background: transparent;
-  color: var(--accent);
 }
 
 .btn-secondary:hover,
@@ -208,13 +204,13 @@ nav {
 
 header {
   border-bottom: 1px solid var(--border-muted);
+  padding-top: 20px;
 }
 
 .menu {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0;
 }
 
 #logo {
@@ -264,18 +260,29 @@ header {
   line-height: 1.5rem;
   /* color: var(--accent); */
   margin: 10px 0;
-  text-transform: uppercase;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.pre-title::after {
+  content: "";
+  display: inline-flex;
+  flex: none;
+  width: 60px;
+  height: 1px;
+  background-color: var(--border-muted);
 }
 
 .title {
-  font-size: clamp(1.5rem, 5vw, 4rem);
-  font-weight: 450;
-  line-height: 1.1;
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  letter-spacing: -0.02em;
   margin-bottom: 20px;
   max-width: 75%;
 }
 .paragraph {
-  color: var(--primary);
+  color: var(--text-muted);
   font-size: 1.1rem;
   line-height: 1.6;
   max-width: 700px;
@@ -305,10 +312,6 @@ header {
     display: flex;
   }
 
-  .right-menu .btn a {
-    color: var(--accent);
-  }
-
   .btn-secondary:hover a {
     color: white !important;
   }
@@ -321,11 +324,9 @@ header {
   }
 
   .title {
-    max-width: 900px;
+    width: 100%;
     line-height: 1.065;
-    font-size: calc(clamp(3.25em, 3.5vw, 4.5em) * 0.875);
-    /* margin-left: auto; */
-    /* margin-right: auto; */
+    font-size: 50px;
   }
 }
 
